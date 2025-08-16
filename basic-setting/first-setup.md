@@ -8,6 +8,29 @@ description: 參考Betaflight, Ardupilot, PX4
 
 1. 選擇框架方向(Frame Type)
 2. 馬達編排與轉向(Motor Numbering and Direction)
+   1. Ardupilot
+      1. 開啟DShot設定，變更完重新啟動才會生效
+         1. SERVO\_DSHOT\_ESC = 3
+         2. MOT\_PWM\_TYPE=6(DSshot-600)
+      2.  馬達測試，測試方向與馬達位置是否正確，
+
+          <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+          1.
+          2.
+
+              <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+          3. 如果旋轉的位置錯誤，則更改馬達順序
+             1.
+
+                 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+          4. 如果選轉方向錯誤，更改SERVO\_BLH\_RVMASK，變更完重新啟動才會生效
+             1.
+
+                 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+   2.
 3. 配置與校正遙控器(RC Calibration)
 4. 加速度計校正(Accelerometer Calibration)
 5. 磁羅盤校正(Compass Calibration)
