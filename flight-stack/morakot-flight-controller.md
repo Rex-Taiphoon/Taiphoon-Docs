@@ -1,15 +1,13 @@
 ---
 description: >-
   Taiphoon Morakot Stack 是專為高性能無人機應用設計的高性能飛塔系統，完全台灣設計與製造。遵循開源的 ArduPilot 與
-  Betaflight 標準。配備高精度的 IMU、氣壓計與磁羅盤，確保飛行導航與控制的精準度。多用途的外形設計可支援多種機型，內建高電流 ESC
-  與多種連接介面，讓其在專業任務與極限環境下都能發揮卓越表現。
+  Betaflight 標準。配備高精度的
+  IMU、氣壓計與磁羅盤，確保飛行導航與控制的精準度。多用途的外形設計可支援多種機型，讓其在專業任務與極限環境下都能發揮卓越表現。
 ---
 
-# Morakot Stack
+# Morakot Flight Controller
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 ## **規格** Specifications
 
@@ -24,7 +22,6 @@ description: >-
   * 5V周邊設備電源輸出 BEC peripherals power&#x20;
   * 9V周邊設備伺服輸出 BEC servos power&#x20;
   * 12V影像設備電源輸出 BEC video power
-  * 60A整合式4 in 1電子變速器 ESC
 * **介面 Interfaces**
   * 8x UART
   * 8x PWM
@@ -42,8 +39,6 @@ description: >-
 <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **連接器接腳分配 Connectors Pin A**ssignments
 
