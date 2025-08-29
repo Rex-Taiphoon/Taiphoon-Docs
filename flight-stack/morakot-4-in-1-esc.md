@@ -10,31 +10,27 @@ description: >-
 
 ## **規格** Specifications
 
-* **微處理器 Microprocessor**
-  * STM32H743VIT MCU
-*
+* 輸入電壓：11V\~33.6V(3S\~8S)
+* 最大電流：60A
+* 預設韌體：AM32 Firmware
+* 支援通訊協定：PWM、DShot300、DShot600
+* 尺寸：44.3(L)\*45.7(W)\*7.55mm(H)
+* 安裝孔距：30.5 x 30.5mm
 
 <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **連接器接腳分配 Connectors Pin A**ssignments
 
-**PWM1(JST-GH 8p)**
+**Output Connector(JST-GH 8p)**
 
-| Pin | Signal   | Voltage     |
-| --- | -------- | ----------- |
-| 1   | VCC      | +12V\~33.6V |
-| 2   | UART7 RX | +3.3V       |
-| 3   | GND      |             |
-| 4   | CURRENT  |             |
-| 5   | Motor1   |             |
-| 6   | Motor2   |             |
-| 7   | Motor3   |             |
-| 8   | Motor4   |             |
+| Pin | Signal  | Voltage     |
+| --- | ------- | ----------- |
+| 1   | VCC     | +12V\~33.6V |
+| 2   | TX      | +3.3V       |
+| 3   | GND     |             |
+| 4   | CURRENT |             |
+| 5   | Motor1  |             |
+| 6   | Motor2  |             |
+| 7   | Motor3  |             |
+| 8   | Motor4  |             |
 
-
-
-
-
-## **More Information**
-
-待更新
