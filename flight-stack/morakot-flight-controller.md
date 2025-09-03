@@ -7,9 +7,11 @@ description: >-
 
 # Morakot Flight Controller
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Morakot FC正面(無標示).jpg" alt=""><figcaption></figcaption></figure>
 
-## **規格** Specifications
+
+
+**規格** Specifications
 
 * **微處理器 Microprocessor**
   * STM32H743VIT MCU
@@ -36,9 +38,15 @@ description: >-
 
 ## **接腳定義 Pinout**
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Morakot FC正面(有標示).jpg" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/Morakot FC背面(有標示).jpg" alt=""><figcaption></figcaption></figure>
+
+
+
+##
 
 ## **連接器接腳分配 Connectors Pin A**ssignments
 

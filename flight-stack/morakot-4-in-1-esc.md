@@ -6,7 +6,7 @@ description: >-
 
 # Morakot 4 in 1 ESC
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Morakot 4 in 1 ESC(無標示).jpg" alt=""><figcaption></figcaption></figure>
 
 ## **規格** Specifications
 
@@ -17,7 +17,9 @@ description: >-
 * 尺寸：44.3(L)\*45.7(W)\*7.55mm(H)
 * 安裝孔距：30.5 x 30.5mm
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Morakot 4 in 1 ESC(有標示).jpg" alt=""><figcaption></figcaption></figure>
+
+
 
 ## **連接器接腳分配 Connectors Pin A**ssignments
 
