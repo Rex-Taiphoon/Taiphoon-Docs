@@ -101,7 +101,8 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 * 燒錄韌體用的地面站：QGroundControl 5.0.0
 * 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
-* 飛控板：KakuteF4-AIO V2.1(Demo)、Morakot
+
+
 
 
 
