@@ -15,10 +15,6 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 {% tabs %}
 {% tab title="Betaflight" %}
-{% hint style="success" %}
-KakuteF4-AIO V2.1驗證完成
-{% endhint %}
-
 ## 先前準備
 
 * 燒錄韌體用的地面站：Betaflight Configurator 10.10.0
@@ -86,7 +82,8 @@ KakuteF4-AIO V2.1驗證完成
 
 * 燒錄韌體用的地面站：Mission Planner 1.3.82
 * 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
-* 飛控板：
+
+
 
 ***
 
