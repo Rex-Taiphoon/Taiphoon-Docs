@@ -23,7 +23,7 @@ KakuteF4-AIO V2.1驗證完成
 
 * 燒錄韌體用的地面站：Betaflight Configurator 10.10.0
 * 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
-* 飛控板：KakuteF4-AIO V2.1(Demo)、Morakot
+* 飛控板：Morakot
 
 ## 連接到電腦
 
@@ -86,7 +86,7 @@ KakuteF4-AIO V2.1驗證完成
 
 * 燒錄韌體用的地面站：Mission Planner 1.3.82
 * 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
-* 飛控板：MATEKSYS F405-HDTE
+* 飛控板：
 
 ***
 
