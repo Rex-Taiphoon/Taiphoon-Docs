@@ -11,7 +11,7 @@ description: >-
 
 
 
-**規格** Specifications
+## **規格** Specifications
 
 * **微處理器 Microprocessor**
   * STM32H743VIT MCU
@@ -46,7 +46,7 @@ description: >-
 
 
 
-##
+
 
 ## **連接器接腳分配 Connectors Pin A**ssignments
 
