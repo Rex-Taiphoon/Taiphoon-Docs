@@ -40,9 +40,9 @@ description: >-
 
 
 
-<figure><img src="../.gitbook/assets/Morakot FC正面(有標示).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/正面(figma).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Morakot FC背面(有標示).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/背面(figma).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -109,6 +109,17 @@ description: >-
 | 4   | SCL      |         |
 | 5   | SDA      |         |
 | 6   | GND      |         |
+
+**OSD(JST-GH 6p)**
+
+| Pin | Signal    | Voltage |
+| --- | --------- | ------- |
+| 1   | VCC       | +5V     |
+| 2   | SPI4 MOSI |         |
+| 3   | SPI4 MISO |         |
+| 4   | SPI4 SCK  |         |
+| 5   | SPI4 CS   |         |
+| 6   | GND       |         |
 
 **CAN(JST-GH 4p)**
 
@@ -237,6 +248,3 @@ CAN_P1_DRIVER,1
 CAN_D1_PROTOCOL,1
 ```
 
-## **More Information**
-
-待更新

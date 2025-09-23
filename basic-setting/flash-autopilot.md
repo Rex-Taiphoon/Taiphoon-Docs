@@ -92,8 +92,6 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 {% tab title="PX4" %}
 {% hint style="info" %}
-請先確認PX4 Bootloader燒錄流程，示範飛控(KakuteF4-AIO V2.1)於QGC讀不到\
-\
 \# PX4 Firmware Bootloader參考連結：[https://docs.px4.io/main/zh/advanced\_config/bootloader\_update\_from\_betaflight.html#bootloader-firmware](https://docs.px4.io/main/zh/advanced_config/bootloader_update_from_betaflight.html#bootloader-firmware)
 {% endhint %}
 
