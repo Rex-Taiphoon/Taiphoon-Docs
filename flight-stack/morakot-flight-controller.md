@@ -7,7 +7,7 @@ description: >-
 
 # Morakot Flight Controller
 
-<figure><img src="../.gitbook/assets/Morakot FC正面(無標示).jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/背面.png" alt=""><figcaption></figcaption></figure>
 
 
 
