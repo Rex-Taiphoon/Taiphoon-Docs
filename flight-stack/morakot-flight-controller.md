@@ -18,7 +18,7 @@ description: >-
 * **感測器 Sensors**
   * ICM-45686 High-Performance IMU
   * Bosch BMP390 Barometer
-  * Bosch BMM350 Magnetometer
+  * ST IIS2MDCTR Magnetometer
 * **電源系統 Power**
   * 3S–8S DC Input power
   * 5V周邊設備電源輸出 BEC peripherals power&#x20;
@@ -104,7 +104,7 @@ description: >-
 | Pin | Signal   | Voltage |
 | --- | -------- | ------- |
 | 1   | VCC      | +5V     |
-| 2   | UART5 RX | +3.3V   |
+| 2   | UART5 TX | +3.3V   |
 | 3   | UART5 RX | +3.3V   |
 | 4   | SCL      |         |
 | 5   | SDA      |         |
@@ -135,7 +135,7 @@ description: >-
 | Pin | Signal   | Voltage |
 | --- | -------- | ------- |
 | 1   | VCC      | +5V     |
-| 2   | UART8 RX | +3.3V   |
+| 2   | UART8 TX | +3.3V   |
 | 3   | UART8 RX | +3.3V   |
 | 4   | GND      |         |
 
