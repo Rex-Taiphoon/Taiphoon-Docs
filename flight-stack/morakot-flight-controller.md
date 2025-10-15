@@ -29,6 +29,7 @@ description: >-
   * 8x PWM
   * 1x I2C
   * 1x CAN
+  * 1x OSD(SPI)
   * 1x USB Type-C Connector
   * 1x Ethernet
   * 1x MicroSD Slot
@@ -118,7 +119,7 @@ description: >-
 | 2   | SPI4 MOSI |         |
 | 3   | SPI4 MISO |         |
 | 4   | SPI4 SCK  |         |
-| 5   | SPI4 CS   |         |
+| 5   | OSD CS    |         |
 | 6   | GND       |         |
 
 **CAN(JST-GH 4p)**
@@ -154,7 +155,7 @@ description: >-
 
 ## **UART接口定義 Serial Port Mapping**
 
-<table><thead><tr><th width="145">Serial Number</th><th width="130">UART</th><th width="186">Port</th><th>Ardupilot Parameters</th></tr></thead><tbody><tr><td>Serial0</td><td>OTG</td><td>USB Type-C</td><td>SERIAL0_BAUD,115<br>SERIAL0_PROTOCOL,2</td></tr><tr><td>Serial1</td><td>USART1</td><td>VTX<br>(compatible with DJI)</td><td>SERIAL1_BAUD,115<br>SERIAL1_OPTIONS,0<br>SERIAL1_PROTOCOL,42</td></tr><tr><td>Serial2</td><td>USART2</td><td>Telem(UART)</td><td>SERIAL2_BAUD,57 <br>SERIAL2_OPTIONS,0 <br>SERIAL2_PROTOCOL,2</td></tr><tr><td>Serial3</td><td>USART3</td><td>S.BUS</td><td>SERIAL3_OPTIONS,1<br>SERIAL3_PROTOCOL,23</td></tr><tr><td>Serial4</td><td>UART5</td><td>GPS</td><td>SERIAL4_BAUD,230 SERIAL4_OPTIONS,0 SERIAL4_PROTOCOL,5</td></tr><tr><td>Serial5</td><td>USART6</td><td>ESC2</td><td>SERIAL5_BAUD,115 <br>SERIAL5_OPTIONS,0 <br>SERIAL5_PROTOCOL,2</td></tr><tr><td>Serial6</td><td>UART7</td><td>Telem(UART) / ESC1</td><td>SERIAL6_BAUD,115 <br>SERIAL6_OPTIONS,0 <br>SERIAL6_PROTOCOL,2</td></tr><tr><td>Serial7</td><td>UART8</td><td>RC Input</td><td>SERIAL7_OPTIONS,0 <br>SERIAL7_PROTOCOL,23</td></tr></tbody></table>
+<table><thead><tr><th width="145">Serial Number</th><th width="130">UART</th><th width="186">Port</th><th>Ardupilot Parameters</th></tr></thead><tbody><tr><td>Serial0</td><td>OTG1</td><td>USB Type-C</td><td>SERIAL0_BAUD,115<br>SERIAL0_PROTOCOL,2</td></tr><tr><td>Serial1</td><td>USART1</td><td>VTX<br>(compatible with DJI)</td><td>SERIAL1_BAUD,115<br>SERIAL1_OPTIONS,0<br>SERIAL1_PROTOCOL,42</td></tr><tr><td>Serial2</td><td>USART2</td><td>Telem(UART)</td><td>SERIAL2_BAUD,57 <br>SERIAL2_OPTIONS,0 <br>SERIAL2_PROTOCOL,2</td></tr><tr><td>Serial3</td><td>USART3</td><td>S.BUS</td><td>SERIAL3_OPTIONS,1<br>SERIAL3_PROTOCOL,23</td></tr><tr><td>Serial4</td><td>UART5</td><td>GPS</td><td>SERIAL4_BAUD,230 SERIAL4_OPTIONS,0 SERIAL4_PROTOCOL,5</td></tr><tr><td>Serial5</td><td>USART6</td><td>ESC2</td><td>SERIAL5_BAUD,115 <br>SERIAL5_OPTIONS,0 <br>SERIAL5_PROTOCOL,2</td></tr><tr><td>Serial6</td><td>UART7</td><td>Telem(UART) / ESC1</td><td>SERIAL6_BAUD,115 <br>SERIAL6_OPTIONS,0 <br>SERIAL6_PROTOCOL,2</td></tr><tr><td>Serial7</td><td>UART8</td><td>RC Input</td><td>SERIAL7_OPTIONS,0 <br>SERIAL7_PROTOCOL,23</td></tr></tbody></table>
 
 ## **遙控器輸入 RC Input**
 
