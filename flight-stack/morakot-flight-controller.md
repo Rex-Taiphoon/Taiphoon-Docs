@@ -79,15 +79,15 @@ description: >-
 
 **VTX(JST-GH 7p)**
 
-| Pin | Signal    | Voltage |
-| --- | --------- | ------- |
-| 1   | Video     |         |
-| 2   | VCC       | +12V    |
-| 3   | GND       |         |
-| 4   | USART1 RX | +3.3V   |
-| 5   | USART1 TX | +3.3V   |
-| 6   | GND       |         |
-| 7   | USART3 RX | +3.3V   |
+| Pin | Signal          | Voltage |
+| --- | --------------- | ------- |
+| 1   | Video           |         |
+| 2   | VCC             | +12V    |
+| 3   | GND             |         |
+| 4   | USART1 RX       | +3.3V   |
+| 5   | USART1 TX       | +3.3V   |
+| 6   | GND             |         |
+| 7   | USART3 RX(SBUS) | +3.3V   |
 
 **UART(JST-GH 6p)**
 
@@ -136,18 +136,18 @@ description: >-
 | Pin | Signal   | Voltage |
 | --- | -------- | ------- |
 | 1   | VCC      | +5V     |
-| 2   | UART8 TX | +3.3V   |
-| 3   | UART8 RX | +3.3V   |
+| 2   | UART8 RX | +3.3V   |
+| 3   | UART8 TX | +3.3V   |
 | 4   | GND      |         |
 
 **ETH(JST-GH 4p)**
 
 | Pin | Signal | Voltage |
 | --- | ------ | ------- |
-| 1   | TXP    |         |
-| 2   | TXN    |         |
-| 3   | RXP    |         |
-| 4   | RXN    |         |
+| 1   | RXP    |         |
+| 2   | RXN    |         |
+| 3   | TXP    |         |
+| 4   | TXN    |         |
 
 
 
