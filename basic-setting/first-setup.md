@@ -59,11 +59,7 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 {% endstep %}
 
 {% step %}
-###
-
 ### 馬達編排、轉向與測試
-
-首先
 
 #### 基礎硬體要求
 
