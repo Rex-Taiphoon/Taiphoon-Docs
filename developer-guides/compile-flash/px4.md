@@ -27,7 +27,7 @@ PX4是一個開源的飛控韌體，主要用於無人機和遙控飛行器。�
     <pre class="language-bash"><code class="lang-bash"><strong>bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
     </strong></code></pre>
 
-    <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3. 編譯PX4韌體
 
@@ -44,12 +44,12 @@ PX4是一個開源的飛控韌體，主要用於無人機和遙控飛行器。�
 
     _將_ Board Nam&#x65;_&#x66FF;換為飛控板的具體名稱。_
 
-    <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 3.  編譯的韌體位置在PX4-Autopilot/build/\<Board Name>/底下，包含PX4的韌體檔案(\<Board Name>.bin, \<Board Name>.px4)
 
-    <figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 韌體燒錄
 

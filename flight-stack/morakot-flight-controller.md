@@ -209,7 +209,7 @@ SERIAL7_PROTOCOL,23
 
 使用VTX介面的RX作為RC input
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **網路設定  Ethernet**
 

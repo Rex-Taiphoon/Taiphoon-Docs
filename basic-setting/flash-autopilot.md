@@ -80,14 +80,36 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 ## 先前準備
 
-* 燒錄韌體用的地面站：Mission Planner 1.3.82
+* 燒錄韌體用的地面站：Mission Planner
 * 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
 
 
 
+## 韌體燒錄
+
+* 開啟**Mission Planner**，進入**初始配置**
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+此時先不用按下Connect連線
+
+* 點選左側**韌體安裝**
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+* 根據需求選擇要安裝的韌體種類(直升機、多旋翼機、定翼機...)
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+* 點選**Yes**開始下載並安裝
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 ***
 
-透過Mission Planner
+<h2 align="center">燒錄Ardupilot韌體步驟完成！接著進行<strong>首次設定First Setup！</strong></h2>
 {% endtab %}
 
 {% tab title="PX4" %}
@@ -134,7 +156,7 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 
 
-<h2 align="center">燒錄Betaflight韌體步驟完成！接著進行<strong>首次設定First Setup！</strong></h2>
+<h2 align="center">燒錄PX4韌體步驟完成！接著進行<strong>首次設定First Setup！</strong></h2>
 {% endtab %}
 {% endtabs %}
 
