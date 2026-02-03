@@ -1,11 +1,6 @@
 # Table of contents
 
 * [👋 Taiphoon 技術支援中心](README.md)
-* [⏩ 快速開始Quick Start](quickstart/README.md)
-  * [硬體選擇](quickstart/choose-hardware.md)
-  * [機體組裝](quickstart/assembly.md)
-  * [飛控韌體燒錄](quickstart/flash-firmware.md)
-  * [飛行測試](quickstart/flight-test.md)
 * [🛠 飛塔系列Flight Stack](flight-stack/README.md)
   * [Morakot Flight Controller](flight-stack/morakot-flight-controller.md)
   * [Morakot 4 in 1 ESC](flight-stack/morakot-4-in-1-esc.md)
