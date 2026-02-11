@@ -41,7 +41,7 @@ description: >-
 ```
 // Ardupilot設定方式
 BATT_MONITOR, 4 // 設定成讀取類比訊號(電壓+電流)
-BATT_VOLT_MULT, 1.111838 // 設定電壓腳位每單位電壓(V)對應的實際電壓(V)
-BATT_AMP_PERVLT, 30.3 // 設定電流腳位每單位電壓(V)對應到的電流(A)
-BATT_AMP_OFFSET, 0.392 // 設定電流腳位在0A時的電壓(V)
+BATT_VOLT_MULT, 11.07 // 設定電壓腳位每單位電壓(V)對應的實際電壓(V)
+BATT_AMP_PERVLT, 40 // 設定電流腳位每單位電壓(V)對應到的電流(A)
+BATT_AMP_OFFSET, 0.032 // 設定電流腳位在空附載時的電壓(V)
 ```
