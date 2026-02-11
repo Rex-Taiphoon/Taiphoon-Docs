@@ -78,7 +78,25 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 {% step %}
 ### 遙控器校準(Radio Calibration)
 
+{% hint style="warning" %}
+請確認已經卸下螺旋槳
+{% endhint %}
 
+#### 校正前準備
+
+1. ✅ 遙控器已開機
+2. ✅ 接收機已與遙控器對頻（Bind）
+3. ✅ 飛控已正確連接接收機（SBUS / PPM / PWM）
+4. ✅ 電池已接上（部分飛控需供電才會讀取接收機）
+5. ✅ 油門桿在最低位置（安全）
+
+#### 開始校正
+
+1. 進入Radio Calibration介面
+2. 按下開始校準
+3. 撥動遙控器上面的每一隻撥桿，並且都要撥到最低位置與最高位置
+4. 按下結束
+5. 結束遙控器校準
 {% endstep %}
 
 {% step %}

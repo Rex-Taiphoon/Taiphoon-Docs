@@ -7,7 +7,7 @@ description: >-
 
 # Morakot Flight Controller
 
-<figure><img src="../.gitbook/assets/背面.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20260211 Morakot V6正面.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -22,11 +22,10 @@ description: >-
 * **電源系統 Power**
   * 3S–8S DC Input power
   * 5V周邊設備電源輸出 BEC peripherals power&#x20;
-  * 9V周邊設備伺服輸出 BEC servos power&#x20;
   * 12V影像設備電源輸出 BEC video power
 * **介面 Interfaces**
   * 8x UART
-  * 8x PWM
+  * 9x PWM
   * 1x I2C
   * 1x CAN
   * 1x OSD(SPI)
@@ -41,9 +40,9 @@ description: >-
 
 
 
-<figure><img src="../.gitbook/assets/正面(figma).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20260211 Morakot V6接口定義(正面).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/背面(figma).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/20260211 Morakot V6接口定義(背面).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -66,16 +65,16 @@ description: >-
 
 **PWM2(JST-GH 8p)**
 
-| Pin | Signal   | Voltage     |
-| --- | -------- | ----------- |
-| 1   | VCC      | +12V\~33.6V |
-| 2   | UART6 RX | +3.3V       |
-| 3   | GND      |             |
-| 4   | CURRENT  |             |
-| 5   | Motor5   |             |
-| 6   | Motor6   |             |
-| 7   | Motor7   |             |
-| 8   | Motor8   |             |
+| Pin | Signal  | Voltage     |
+| --- | ------- | ----------- |
+| 1   | VCC     | +12V\~33.6V |
+| 2   | Motor9  | +3.3V       |
+| 3   | GND     |             |
+| 4   | CURRENT |             |
+| 5   | Motor5  |             |
+| 6   | Motor6  |             |
+| 7   | Motor7  |             |
+| 8   | Motor8  |             |
 
 **VTX(JST-GH 7p)**
 
@@ -144,10 +143,10 @@ description: >-
 
 | Pin | Signal | Voltage |
 | --- | ------ | ------- |
-| 1   | RXP    |         |
-| 2   | RXN    |         |
-| 3   | TXP    |         |
-| 4   | TXN    |         |
+| 1   | RXN    |         |
+| 2   | RXP    |         |
+| 3   | TXN    |         |
+| 4   | TXP    |         |
 
 
 
