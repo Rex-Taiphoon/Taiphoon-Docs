@@ -118,7 +118,7 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 
 #### **關鍵參數設定**
 
-<table><thead><tr><th width="192">參數名稱</th><th width="143">設定值</th><th>說明</th></tr></thead><tbody><tr><td>MOT_PWM_TYPE</td><td>6</td><td>設定為 DShot600 (若電變較舊可選 4=DShot300)</td></tr><tr><td>SERVO_BLH_AUTO</td><td>1</td><td>自動啟用對應腳位的 BLHeli 支援</td></tr><tr><td>SERVO_DSHOT_ESC</td><td>3</td><td>啟用 DShot 遙測或進階功能(BLHeli32/AM32/Kiss+EDT)</td></tr></tbody></table>
+<table><thead><tr><th width="192">參數名稱</th><th width="143">設定值</th><th>說明</th></tr></thead><tbody><tr><td>MOT_PWM_TYPE</td><td>6</td><td>設定為 DShot600 (若電變較舊可選 5=DShot300)</td></tr><tr><td>SERVO_BLH_AUTO</td><td>1</td><td>自動啟用對應腳位的 BLHeli 支援</td></tr><tr><td>SERVO_DSHOT_ESC</td><td>3</td><td>啟用 DShot 遙測或進階功能(BLHeli32/AM32/Kiss+EDT)</td></tr></tbody></table>
 
 #### **馬達測試**
 
