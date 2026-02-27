@@ -236,7 +236,7 @@ ArduPilot 提供了一種同時校正所有電調的方法，操作如下
 
 到**配置/調試介面的Full Parameters**介面，確認以下參數，如果使用**Morakot 4 in 1 ESC**則能夠套用以下設定值
 
-<table><thead><tr><th width="183">參數名稱</th><th>使用Morakot 4 in 1 ESC的設定值</th><th>說明</th></tr></thead><tbody><tr><td>BATT_MONITOR</td><td>4</td><td>監控電池的電壓和電流的功能</td></tr><tr><td>BATT_CURR_PIN</td><td>12</td><td>監測電流的腳位</td></tr><tr><td>BATT_VOLT_PIN</td><td>10</td><td>監測電壓的腳位</td></tr><tr><td>BATT_AMP_PERVLT</td><td>40</td><td>電流感測器的比例換算關係</td></tr><tr><td>BATT_VOLT_MULT</td><td>11.07</td><td>電壓分壓係數</td></tr><tr><td>BATT_AMP_OFFSET</td><td>0.032</td><td>電流感測器的偏移量</td></tr></tbody></table>
+<table><thead><tr><th width="183">參數名稱</th><th>使用Morakot 4 in 1 ESC的設定值</th><th>說明</th></tr></thead><tbody><tr><td>BATT_MONITOR</td><td>4</td><td>監控電池的電壓和電流的功能</td></tr><tr><td>BATT_CURR_PIN</td><td>12</td><td>監測電流的腳位</td></tr><tr><td>BATT_VOLT_PIN</td><td>10</td><td>監測電壓的腳位</td></tr><tr><td>BATT_AMP_PERVLT</td><td>40</td><td>電流感測器的比例換算關係</td></tr><tr><td>BATT_VOLT_MULT</td><td>11.07</td><td>電壓分壓係數</td></tr><tr><td>BATT_AMP_OFFSET</td><td>0.023</td><td>電流感測器的偏移量</td></tr></tbody></table>
 
 
 
