@@ -18,7 +18,7 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 ## 先前準備
 
 * 燒錄韌體用的地面站：Betaflight Configurator 10.10.0
-* 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
+* 燒錄韌體：目前Moarkot Betaflight韌體在開發驗證階段，如有需要請聯繫service@taiphoon.com.tw
 * 飛控板：Morakot
 
 ## 連接到電腦
@@ -81,7 +81,7 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 ## 先前準備
 
 * 燒錄韌體用的地面站：Mission Planner
-* 下載韌體連結：taiphoon.com.tw/firmware/morakot/lastest
+* 韌體：[https://firmware.ardupilot.org/Copter/beta/Morakot/arducopter\_with\_bl.hex](https://firmware.ardupilot.org/Copter/beta/Morakot/arducopter_with_bl.hex)
 
 
 
