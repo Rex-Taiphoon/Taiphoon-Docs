@@ -8,7 +8,7 @@
   * [選擇地面控制站GCS](basic-setting/choose-gcs/README.md)
     * [安裝Mission Planner](basic-setting/choose-gcs/an-zhuang-mission-planner.md)
   * [無人系統UAS組裝教學](basic-setting/uas-assembly-tutorial/README.md)
-    * [安裝前評估](basic-setting/uas-assembly-tutorial/an-zhuang-qian-ping-gu.md)
+    * [安裝前準備](basic-setting/uas-assembly-tutorial/an-zhuang-qian-zhun-bei.md)
     * [安裝馬達(Motors)](basic-setting/uas-assembly-tutorial/an-zhuang-ma-da-motors.md)
     * [安裝電子調速器(ESC)](basic-setting/uas-assembly-tutorial/an-zhuang-dian-zi-diao-su-qi-esc.md)
     * [安裝飛行控制器(Flight Controller)](basic-setting/uas-assembly-tutorial/an-zhuang-fei-xing-kong-zhi-qi-flight-controller.md)
