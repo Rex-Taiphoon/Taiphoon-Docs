@@ -44,4 +44,7 @@
     * [Betaflight](developer-guides/compile-flash/betaflight.md)
     * [Ardupilot](developer-guides/compile-flash/ardupilot.md)
     * [PX4](developer-guides/compile-flash/px4.md)
+  * [目標鎖定系統開發(Raspberry Pi 5)](developer-guides/mu-biao-suo-ding-xi-tong-kai-fa-raspberry-pi-5/README.md)
+    * [範例程式碼](developer-guides/mu-biao-suo-ding-xi-tong-kai-fa-raspberry-pi-5/fan-li-cheng-shi-ma.md)
+    * [運行目標鎖定程式](developer-guides/mu-biao-suo-ding-xi-tong-kai-fa-raspberry-pi-5/yun-xing-mu-biao-suo-ding-cheng-shi.md)
 * [❓ 常見問答 FAQ](faq.md)
