@@ -25,7 +25,9 @@
 
 開啟地面站，確認`SERVO_BLH_AUTO`參數設定為1
 
-![](<../.gitbook/assets/image (100).png>)
+<figure><img src="../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+
+
 {% endstep %}
 
 {% step %}
@@ -65,7 +67,9 @@
 
 如果按下Start flash後沒有進行燒錄，則ignore current mcu layout勾起來，某些自行修改的AM32韌體需要使用此選項才能夠燒錄
 
-![](<../.gitbook/assets/image (108).png>)
+<figure><img src="../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+
+
 
 進度條完成後表示AM32韌體更新完成
 {% endstep %}
