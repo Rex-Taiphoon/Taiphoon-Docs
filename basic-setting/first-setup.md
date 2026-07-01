@@ -76,6 +76,47 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 {% endstep %}
 
 {% step %}
+### 遙控器設定(Radio Setting)
+
+需要注意是否在Serial port同時開啟VTX的S.BUS設定，Ardupilot(4.7.0)目前在Serial port中僅支援一個RC input功能，如果同時在Serial Port設定兩個RC input，Ardupilot會出現錯誤，請根據您的需求進行設定：
+
+{% tabs %}
+{% tab title="使用VTX介面的RX作為RC input" %}
+```
+# 關閉RC input的Serial7設定
+SERIAL7_BAUD,115
+SERIAL7_OPTIONS,0
+SERIAL7_PROTOCOL,-1
+
+# 開啟VTX的Serial3設定(CSRF、ELRS)
+SERIAL3_BAUD,115
+SERIAL3_OPTIONS,0
+SERIAL3_PROTOCOL,-1
+
+# 開啟VTX的Serial3設定(S.BUS)
+SERIAL3_BAUD,115
+SERIAL3_OPTIONS,1
+SERIAL3_PROTOCOL,23
+```
+{% endtab %}
+
+{% tab title="使用RC input介面的TX/RX作為RC input" %}
+```
+# 關閉VTX的Serial3設定
+SERIAL3_BAUD,115
+SERIAL3_OPTIONS,0
+SERIAL3_PROTOCOL,-1
+
+# 開啟RC input的Serial7設定(CSRF、ELRS)
+SERIAL7_BAUD,115
+SERIAL7_OPTIONS,0
+SERIAL7_PROTOCOL,23
+```
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
 ### 遙控器校準(Radio Calibration)
 
 {% hint style="warning" %}
