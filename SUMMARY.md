@@ -26,6 +26,7 @@
   * [Betaflight調機指南](advance-setting/betaflight-tuning.md)
   * [Ardupilot調機指南](advance-setting/ardupilot-tuning.md)
   * [AM32參數](advance-setting/am32-can-shu.md)
+  * [AM32韌體線上更新](advance-setting/am32-ren-ti-xian-shang-geng-xin.md)
   * [PX4調機指南](advance-setting/px4-tuning.md)
 * [📦 配件與相容性](peripheral-and-compatibility/README.md)
   * [機架Frame](peripheral-and-compatibility/frame.md)
