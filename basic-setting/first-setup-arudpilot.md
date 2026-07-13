@@ -2,7 +2,7 @@
 description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 4.6.3
 ---
 
-# 首次設定First Setup
+# 首次設定First Setup-Ardupilot
 
 首次設定時，必須配置與校正一些硬體配件以及參數，並依據以下順序執行：
 
@@ -192,7 +192,7 @@ SERIAL7_PROTOCOL,23
 
 如果旋轉的位置錯誤，則需要到Servo output頁面更改馬達順序
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **假設原本的編排為如下**
 

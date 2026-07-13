@@ -89,13 +89,13 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 * 開啟**Mission Planner**，進入**初始配置**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 此時先不用按下Connect連線
 
 * 點選左側**韌體安裝**
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * 根據需求選擇要安裝的韌體種類(直升機、多旋翼機、定翼機...)
 

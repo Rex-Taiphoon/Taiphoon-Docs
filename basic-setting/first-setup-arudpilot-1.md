@@ -193,7 +193,7 @@ SERIAL7_PROTOCOL,23
 
 如果旋轉的位置錯誤，則需要到Servo output頁面更改馬達順序
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **假設原本的編排為如下**
 
