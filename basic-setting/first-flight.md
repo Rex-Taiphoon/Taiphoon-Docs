@@ -1,26 +1,110 @@
+---
+description: 首次飛行前，請確保以下項目，並根據地面站軟體的提示判斷是否異常，如果無異常表示可以準備起飛
+---
+
 # 首次飛行First Flight
 
-首次飛行前，由於有許多參數可能尚未調整到位，因此必須做一些基本的飛行前檢查表(Preflight checklist)，包含GCS與無人系統的檢查表
+請依序檢查以下事項，在檢查前請先確認
 
-***
+* **遙控器已開機**
+* **螺旋槳未安裝**
+* **電池固定牢固**
+* **地面站已開機**
 
-GCS(Ground Control Station)
-
-<table><thead><tr><th width="78">項次</th><th>檢查內容</th><th>通過標準</th></tr></thead><tbody><tr><td>1</td><td>GCS電腦</td><td>已開機(Power On)</td></tr><tr><td>2</td><td>GCS電腦電量</td><td>>50%</td></tr><tr><td>3</td><td>GCS軟體(QGC、Mission Planner)</td><td>已開啟</td></tr><tr><td>4</td><td>數傳模組</td><td>已連接</td></tr><tr><td>5</td><td>連接UAS</td><td>已連接</td></tr><tr><td>6</td><td>錯誤訊息</td><td>無錯誤訊息</td></tr><tr><td>7</td><td>安全檢查設定(Pre-Arm Safety Checks)</td><td>已設定</td></tr><tr><td>8</td><td>電池電壓</td><td>>12.5V(3S, LiPo)<br>>16.5V(4S, LiPo)<br>>20.5V(5S, LiPo)<br>>24.5V(6S, LiPo)</td></tr><tr><td>9</td><td>訊號品質</td><td>>75%</td></tr><tr><td>10</td><td>RC控制信號</td><td>控制Pitch、Roll、Yaw、Throttle軸，觀察控制信號是否變化</td></tr><tr><td>11</td><td>馬達緊急停止(Motor Emergency Stop)設定</td><td>已設定馬達緊急停止</td></tr><tr><td>12</td><td>飛行模式控制桿</td><td>撥動飛行模式控制桿確認設定正確</td></tr><tr><td>13</td><td>GPS狀態</td><td>已定位3D Fixed，衛星數>10顆</td></tr><tr><td>14</td><td>解鎖怠速(Idle)設定</td><td>確認解鎖怠速已設定</td></tr><tr><td>15</td><td>飛行模式</td><td>Betaflight: Angle Mode<br>Ardupilot: Stabilize Mode<br>PX4: Attitude Mode</td></tr></tbody></table>
+確認完成後，接上電池
 
 
 
-***
+{% stepper %}
+{% step %}
+### 確認與地面站連線
 
-UAS
+請確保通信模組與地面站連線完畢
 
-<table><thead><tr><th width="81">項次</th><th>檢查內容</th><th>通過標準</th></tr></thead><tbody><tr><td>1</td><td>螺旋槳</td><td>安裝正確</td></tr><tr><td>2</td><td>圖傳天線(可選)</td><td>已安裝</td></tr><tr><td>3</td><td>數傳天線</td><td>已安裝</td></tr><tr><td>4</td><td>整機螺絲與配件</td><td>已鎖緊</td></tr><tr><td>5</td><td>電池組</td><td>已安裝</td></tr><tr><td>6</td><td>連接電池</td><td>已連接</td></tr><tr><td>7</td><td>飛控初始化完成</td><td>初始化完成且無異音</td></tr><tr><td>8</td><td>遙控器</td><td>油門收至最底、其他控制軸向置中</td></tr></tbody></table>
+<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-***
+{% step %}
+### 電池電壓
 
-## 以上項目確認完成後，油門桿收至最底，航向軸(Yaw)往內收，解鎖飛機。
+確認電池電壓在24V以上
 
-參考資料：
+<figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-1\. [https://ardupilot.org/copter/docs/checklist.html](https://ardupilot.org/copter/docs/checklist.html)
+{% step %}
+### GPS衛星數量
+
+確認衛星數量至少15顆，並且hdop在0.8以下
+
+<figure><img src="../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 確認飛行模式
+
+撥動飛行模式桿位，依序設定為Stabilize、AltHold、Loiter(以Ardupilot為例)
+
+
+{% endstep %}
+
+{% step %}
+### 確認馬達鎖
+
+為了確保安全，應在遙控器上設置一個馬達鎖撥桿，並確認是否有效
+
+並且將馬達鎖鎖上，HUD上應該顯示Motors Emergency Stopped
+
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 裝上螺旋槳
+
+{% hint style="warning" %}
+裝上螺旋槳後，要注意遙控器被誤觸，以及地面站非必要請勿下任何操作
+{% endhint %}
+
+安裝螺旋槳時需要注意安裝方向，請依照順序擺放，並且鎖緊螺旋槳
+
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 馬達測試
+
+再次確認馬達轉向與螺旋槳安裝方向，打開馬達測試介面，並**解開遙控器上的馬達鎖**，依序以10%油門測試四顆馬達，確認**風向都是向下吹**
+
+<figure><img src="../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 準備起飛
+
+切換成Stabilize模式，地面站觀察員應注意以下資訊
+
+1. 是否有錯誤訊息或異常訊息在HUD上面?
+2. Vibe與EKF是否異常
+
+<figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
+
+如果有任何異常訊息應停止起飛，並解決問題後直到儀表板顯示Ready to Arm才能解鎖
+{% endstep %}
+
+{% step %}
+### 解鎖起飛
+
+遙控器左邊桿位打置右下解鎖，並逐步加大油門讓飛機離地，觀察是否有異音或異常擺動，請試圖維持在空中1分鐘。
+
+完成後即可降落。
+{% endstep %}
+
+{% step %}
+### 飛行參數調整
+
+首次飛行使用的參數為預設參數，因此參數一定會需要調整，請根據調參指南進行進一步調整
+{% endstep %}
+{% endstepper %}
+
+
 

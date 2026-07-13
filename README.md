@@ -40,6 +40,7 @@ coverY: 0
 * **2025-07-09**　建立基本Taiphoon技術支援中心網站架構
 * **2025-07-11**　更新基礎配置文件
 * **2026-02-11**　更新基礎配置文件與飛塔產品介紹
+* **2026-07-13**    更新基礎配置文件
 
 ***
 
@@ -49,9 +50,9 @@ coverY: 0
 {% step %}
 ### 完成基礎技術文件撰寫與韌體設定測試
 
-* [ ] 基礎配置Basic Setting-選擇地面控制站(GCS)
-* [ ] 基礎配置Basic Setting-無人系統UAS組裝教學
-* [ ] 基礎配置Basic Setting-燒錄開源飛控韌體(Autopilot)
+* [x] 基礎配置Basic Setting-選擇地面控制站(GCS)
+* [x] 基礎配置Basic Setting-無人系統UAS組裝教學
+* [x] 基礎配置Basic Setting-燒錄開源飛控韌體(Autopilot)
 * [x] 基礎配置Basic Setting-首次設定(First Setup)
 * [ ] 基礎配置Basic Setting-首次飛行(First Flight)
 * [ ] 進階配置Advance Setting-調機指南
