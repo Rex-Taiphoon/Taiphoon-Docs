@@ -54,8 +54,8 @@ coverY: 0
 * [x] 基礎配置Basic Setting-無人系統UAS組裝教學
 * [x] 基礎配置Basic Setting-燒錄開源飛控韌體(Autopilot)
 * [x] 基礎配置Basic Setting-首次設定(First Setup)
-* [ ] 基礎配置Basic Setting-首次飛行(First Flight)
-* [ ] 進階配置Advance Setting-調機指南
+* [x] 基礎配置Basic Setting-首次飛行(First Flight)
+* [x] 進階配置Advance Setting-調機指南
 {% endstep %}
 
 {% step %}
@@ -63,7 +63,6 @@ coverY: 0
 
 * [x] Morakot Flight Controller
 * [x] Morakot 4 in 1 ESC
-* [ ] Nari GPS
 {% endstep %}
 
 {% step %}
@@ -83,7 +82,7 @@ coverY: 0
 {% step %}
 ### 常見問答
 
-* [ ] 常見問答FAQ
+* [x] 常見問答FAQ
 {% endstep %}
 {% endstepper %}
 
