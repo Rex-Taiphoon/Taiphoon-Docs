@@ -1,8 +1,8 @@
-# Ardupilot調機指南
+# 調機指南-Ardupilot
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### 一、 PID 控制器背景與組成
 
@@ -16,7 +16,7 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 
 
 
-<figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 **建議的調整順序為：D -> P -> I -> DFF -> FF**。
 
@@ -28,7 +28,7 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 
 一般建議直接用Mission Planner提供的快速計算工具，輸入你使用的飛機配置即可大概估算起始PID值
 
-<figure><img src="../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 1. **初始參數(Initial Tune Parameter)設置**：在「初始配置」中設置螺旋槳尺寸、電池節數及電壓，Mission Planner會計算出適合的參數，直接寫入即可。
 2. **日誌記錄設置**：正確的日誌對調參至關重要。建議設置 `INS_LOG_BAT_OPT = 5`，並將樣本計數設為 1024 或 2048。
@@ -40,7 +40,7 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 
 這是底層控制的核心，包含橫滾 (Roll)、俯仰 (Pitch) 與偏航 (Yaw) 三個控制器。
 
-<figure><img src="../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>
 
 **1. P:D 平衡調整**
 
@@ -64,7 +64,7 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 
 在速率 PID 調整良好後，才進行姿態控制調整。這是一個比例 (P) 控制器，控制目標角度與實際角度的轉換。
 
-<figure><img src="../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (128).png" alt=""><figcaption></figcaption></figure>
 
 * **調整方法**：在「擴展調整」中增加 **姿態 P 項**，直到開始出現振盪，然後回落約 20%。
 * **最大傾斜角度**：通常建議設置 `ANGLE_MAX = 30`（30度），以確保在最大傾斜時仍有足夠推力維持高度。
@@ -75,7 +75,7 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 
 油門控制器控制垂直加速度與高度。
 
-<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure>
 
 1. **學習懸停油門**：在 AltHold 模式下穩定懸停 30 秒，讓系統學習 `MOT_THST_HOVER`。若該值小於 0.3，建議將 `ATC_THR_MIX_MAX` 設為 0.9。
 2. **加速度補償**：
@@ -87,7 +87,7 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 
 #### 六、 位置保持調整 (Loiter/Position Control)
 
-<figure><img src="../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure>
 
 1. **水平位置控制**：`PSC_POSXY_P` 將位置誤差轉換為目標速度。
 2. **水平速度控制**：`PSC_VELXY_P、I、D` 將目標速度轉換為加速度。
@@ -102,8 +102,8 @@ ArduPilot 的**PID-FF-DFF 控制器** 來確保無人機的飛行性能。完整
 * 開啟Mission Planner，選擇最下方的**舵機調整**
 *
 
-    <figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 *   在圖表上點兩下，根據想要調整的軸選擇要看的軸，在此以Pitch為例
 
-    <figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
 * 實際飛行時，觀察兩條線是否貼合，如果非常貼合表示PID狀態很好，如果pitch.target範圍大於實際pitch，可能表示Rate P可能不足，此時應該增加Rate P與Rate I，並多次調整與測試直到兩條線貼合，才表示該PID軸已調整完畢

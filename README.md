@@ -66,20 +66,6 @@ coverY: 0
 {% endstep %}
 
 {% step %}
-### 建立周邊配件整合指南
-
-* [ ] 配件與相容性-機架Frame
-* [ ] 配件與相容性-馬達Motors
-* [ ] 配件與相容性-電池與電源模組Battery\&Module
-* [ ] 配件與相容性-螺旋槳Propeller
-* [ ] 配件與相容性-遙控系統RC Radio
-* [ ] 配件與相容性-圖傳Video Radio
-* [ ] 配件與相容性-數傳系統Telemetry/Radio
-* [ ] 配件與相容性-GPS/GNSS
-* [ ] 配件與相容性-鏡頭Camera
-{% endstep %}
-
-{% step %}
 ### 常見問答
 
 * [x] 常見問答FAQ

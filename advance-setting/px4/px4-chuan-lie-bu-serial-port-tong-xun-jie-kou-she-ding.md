@@ -16,17 +16,17 @@ description: 如何理解與設定PX4的接口設定
 
 這邊可以看到目前的韌體啟用的那些UART介面
 
-<figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
 
 #### 確認PX4的Serial Ports定義與設定
 
 `make <編譯目標名稱> boardconfig`
 
-<figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
 選擇Serial ports，將會列出PX4可以使用的Serial Port定義，以及目前**串列埠設備**對應到的**串列埠功能**
 
-<figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 實際上飛控板的UART定義與串列埠設備(/dev/ttySx)的具有對應關係，在某些飛控板設計中可能會有UART沒有全部都被使用、或是跳過部分的UART接口的現象，以Morakot為例，沒有使用到UART4接口，以下為對應關係：
 
@@ -57,26 +57,26 @@ PX4韌體運行時會再次封裝不同通訊接口(不限於串列埠)的功能
 
 
 
-    <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 3. 觀察到有MAV\_0、MAV\_1、MAV\_2，分別為不同的MAVLink通訊埠實例，可以選擇沒有使用到的實例當作WIFI數傳的設定，在這邊以MAV\_1為例
 4.  搜尋MAV\_1，點選MAV\_1\_CONFIG，將會彈出一個視窗顯示要輸入的數字
 
 
 
-    <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 5.  數字可以在PX4參數參照表找到，找到原本韌體定義的串列埠功能，填入對應的數字，按下Save儲存
 
 
 
-    <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 6. 飛控重新啟動後即可生效
 7.  以QGC或MissionPlanner測試是否以WIFI成功連通
 
 
 
-    <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 
