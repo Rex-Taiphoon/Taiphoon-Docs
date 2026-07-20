@@ -1,2 +1,2 @@
-# 💻 開發者指南Developer Guides
+# 開發者指南Developer Guides
 

@@ -1,2 +1,0 @@
-# 螺旋槳Propeller
-

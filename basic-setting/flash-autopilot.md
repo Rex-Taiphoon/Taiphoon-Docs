@@ -3,7 +3,13 @@ cover: ../.gitbook/assets/taiphoon_logo2.jpg
 coverY: 0
 ---
 
-# 燒錄開源飛控韌體(Autopilot)
+# 韌體燒錄
+
+## 關於韌體燒錄
+
+如果使用Morakot Flight Controller或其他開箱即用的飛行控制器，已內建韌體，除非需要自行刷寫不同版本或不同的自動駕駛韌體，否則不需要進行重新燒錄
+
+
 
 Taiphoon產品主要以三種開源飛控韌體為主：
 
@@ -71,8 +77,6 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 * 連線成功後，顯示飛控目前姿態與狀態數值
 
 <figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
-
-<h2 align="center">燒錄Betaflight韌體步驟完成！接著進行<strong>首次設定First Setup！</strong></h2>
 {% endtab %}
 
 {% tab title="Ardupilot" %}
@@ -106,10 +110,6 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 * 點選**Yes**開始下載並安裝
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-***
-
-<h2 align="center">燒錄Ardupilot韌體步驟完成！接著進行<strong>首次設定First Setup！</strong></h2>
 {% endtab %}
 
 {% tab title="PX4" %}
@@ -145,20 +145,27 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 
 <figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
 
-* 選擇燒錄
-* 正在燒錄
-* 完成燒錄
+* 接上飛控，此時會出現Firmware Setup的視窗，可以選擇預編譯好的版本(會從網路上下載)，或是自行編譯的版本(Custom firmware file)
+
+<figure><img src="../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure>
+
+* 選擇燒錄檔案
+
+<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+
+* 按下開啟後立即開始燒錄，等待燒錄完成
 
 ## 連線測試
 
 * 連線到裝置
-* 連線狀態驗證
 
+當燒錄完成後，QGC會自動連線到飛控，如果連線成功即表示燒錄完成
 
-
-<h2 align="center">燒錄PX4韌體步驟完成！接著進行<strong>首次設定First Setup！</strong></h2>
+<figure><img src="../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+
+
 
 
 

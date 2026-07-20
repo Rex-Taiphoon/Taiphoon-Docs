@@ -1,2 +1,2 @@
-# ⚙️ 基礎配置Basic Setting
+# 基礎配置
 

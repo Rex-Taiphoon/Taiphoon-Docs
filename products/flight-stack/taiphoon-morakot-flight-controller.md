@@ -5,9 +5,9 @@ description: >-
   IMU、氣壓計與磁羅盤，確保飛行導航與控制的精準度。多用途的外形設計可支援多種機型，讓其在專業任務與極限環境下都能發揮卓越表現。
 ---
 
-# Morakot Flight Controller
+# Taiphoon Morakot Flight Controller
 
-<figure><img src="../.gitbook/assets/20260211 Morakot V6正面.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20260211 Morakot V6正面.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -40,9 +40,9 @@ description: >-
 
 
 
-<figure><img src="../.gitbook/assets/20260211 Morakot V6接口定義(正面).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20260211 Morakot V6接口定義(正面).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/20260211 Morakot V6接口定義(背面).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/20260211 Morakot V6接口定義(背面).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -208,7 +208,7 @@ SERIAL7_PROTOCOL,23
 
 使用VTX介面的RX作為RC input
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **網路設定  Ethernet**
 

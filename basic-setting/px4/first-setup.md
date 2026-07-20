@@ -1,8 +1,9 @@
 ---
-description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 4.6.3
+description: 以QGroundControl為主要設定工具，設定韌體為PX4 v1.17
+hidden: true
 ---
 
-# 首次設定First Setup-Ardupilot
+# 首次設定
 
 首次設定時，必須配置與校正一些硬體配件以及參數，並依據以下順序執行：
 
@@ -12,7 +13,7 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 
 #### 框架結構 (Frame Class)
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 這指飛機整體的「**物理形狀**」。最常見的包括：
 
@@ -26,7 +27,7 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 
 選定了框架結構後（例如 Quad），必須告訴系統**馬達的排列方向**。
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 #### 常見的四軸佈局
 
@@ -45,18 +46,18 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 2. 按照指示操作，依序按下**Click when Done**
 3.  飛機放置水平
 
-    <figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 4.  飛機正面朝向左側(向左轉90度)
 
-    <figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 5. 依序進行校正
 6.  校正完成後將出現**Finish**
 
-    <figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 
 7. 將飛機放置在水平面，按下**校準水平狀態**
-8. ![](<../.gitbook/assets/image (88).png>)
+8. ![](<../../.gitbook/assets/image (88).png>)
 
 
 {% endstep %}
@@ -66,11 +67,11 @@ description: 以Mission Planner為主要設定工具，設定韌體為Ardupilot 
 
 到**初始配置的羅盤校準**介面，點選**Start**
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 校正中，直到100%即完成校正
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
 完成後**重新啟動(Reboot)**
 {% endstep %}
@@ -145,7 +146,7 @@ SERIAL7_PROTOCOL,23
 
 到**初始配置的Servo Output**介面
 
-<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 可以在對應的**通道/位置**選擇不同的觸發功能，常見的多旋翼通道1\~4為馬達輸出通道
 {% endstep %}
@@ -169,15 +170,15 @@ SERIAL7_PROTOCOL,23
 
 常見的馬達布局為X型，正確的馬達轉向如下：
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **進入馬達測試頁面**
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 馬達測試時，參數預設為Throttle=5%、Duration=2 sec。依序從馬達A開始測試到馬達D，可參照上方馬達布局圖片
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 正常來說，轉動的順序應該如下表(假設機首對向前方)：
 
@@ -192,11 +193,11 @@ SERIAL7_PROTOCOL,23
 
 如果旋轉的位置錯誤，則需要到Servo output頁面更改馬達順序
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **假設原本的編排為如下**
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 如果按下Test motor A時，原本應為**右前方(馬達編號1)旋轉**，卻是**右後方(馬達編號4)旋轉**，表示**Motor1的功能被錯誤分配到Channel/Position 1(實體電路的PWM輸出，表示實際上的Position1不是第一顆馬達)**，因此需要把**Channel/Position 1**分別改成**Motor2\~Motor4，**&#x4E26;且**不要有MotorN設定相同**避免無法排&#x67E5;**，**&#x76F4;到測試到馬達編排順序正確。
 
@@ -204,11 +205,11 @@ SERIAL7_PROTOCOL,23
 
 到**配置/調試介面的Full Parameters**，更改SERVO\_BLH\_RVMASK，變更完重新啟動才會生效
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 如果Motor1轉向錯誤，則需要到Servo output看Motor1對應的是哪一個**Channel/Position，**&#x4E26;將對應的**Channel/Position**勾起來，並寫入參數。以下圖為例，需要把**Channel1勾起來。**
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 
 {% endstep %}
@@ -239,7 +240,7 @@ ArduPilot 提供了一種同時校正所有電調的方法，操作如下
 
 到**初始配置的Serial Ports**介面
 
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
 
 可以參考Morakot Flight Controller的接口映射表，根據需求調整通訊速度(Baudrate)與通訊協定(Protocol)
 
@@ -251,7 +252,7 @@ ArduPilot 提供了一種同時校正所有電調的方法，操作如下
 
 到**初始配置的飛行模式設定**介面
 
-<figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure>
 
 **綠色底為目前所在的飛行模式**
 
@@ -266,7 +267,7 @@ ArduPilot 提供了一種同時校正所有電調的方法，操作如下
 
 到**初始配置的電源模組**配置以下參數
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 1. 量測目前電池的實際電壓
 2. 輸入到**量測電池電壓**欄位，確認後按下Enter
@@ -289,7 +290,7 @@ ArduPilot 提供了一種同時校正所有電調的方法，操作如下
 
 到**初始配置的失控保護**介面，故障保護為當發生異常情況時，讓飛控自動執行預設的安全動作。
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
 
 介面中可以選擇**三種故障保護措施與條件**
 

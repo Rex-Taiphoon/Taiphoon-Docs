@@ -1,2 +1,2 @@
-# 🔧 進階配置Advance Setting
+# 進階配置Advance Setting
 
