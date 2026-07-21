@@ -38,6 +38,8 @@ description: >-
 
 ## **電源模組設定 Battery Monitor Setting**
 
+<figure><img src="../../../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+
 ```
 // Ardupilot設定方式
 BATT_MONITOR, 4 // 設定成讀取類比訊號(電壓+電流)

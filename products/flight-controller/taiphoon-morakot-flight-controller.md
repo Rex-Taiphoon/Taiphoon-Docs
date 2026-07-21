@@ -158,38 +158,38 @@ description: >-
 
 ## **遙控器輸入 RC Input**
 
-RC input經由UART介面輸入遙控訊號，支援CSRF、ELRS、S.BUS訊號。
+RC input經由UART介面輸入遙控訊號，支援CSRF、ELRS、S.BUS等訊號。
 
-### Ardupilot
 
-在Ardupilot中需要設定以下參數：
 
-SERIAL7\_OPTIONS,0 \
-SERIAL7\_PROTOCOL,23
-
-需要注意是否在Serial port同時開啟VTX的S.BUS設定，Ardupilot(4.7.0)目前在Serial port中僅支援一個RC input功能，如果同時在Serial Port設定兩個RC input，Ardupilot會出現錯誤，請根據您的需求進行設定：
+### Ardupilot設定
 
 {% tabs %}
-{% tab title="使用VTX介面的RX作為RC input" %}
+{% tab title="使用VTX介面" %}
+如果使用**VTX**介面作為RC Input，例如DJI O4 PRO
+
+<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+
 ```
 # 關閉RC input的Serial7設定
 SERIAL7_BAUD,115
 SERIAL7_OPTIONS,0
 SERIAL7_PROTOCOL,-1
 
-# 開啟VTX的Serial3設定(CSRF、ELRS)
-SERIAL3_BAUD,115
-SERIAL3_OPTIONS,0
-SERIAL3_PROTOCOL,-1
-
-# 開啟VTX的Serial3設定(S.BUS)
+# 開啟VTX的Serial3設定
 SERIAL3_BAUD,115
 SERIAL3_OPTIONS,1
 SERIAL3_PROTOCOL,23
 ```
+
+
 {% endtab %}
 
-{% tab title="使用RC input介面的TX/RX作為RC input" %}
+{% tab title="使用RC介面" %}
+如果使用**RC**介面作為RC Input，例如ELRS、SBUS等
+
+<figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+
 ```
 # 關閉VTX的Serial3設定
 SERIAL3_BAUD,115
@@ -201,8 +201,12 @@ SERIAL7_BAUD,115
 SERIAL7_OPTIONS,0
 SERIAL7_PROTOCOL,23
 ```
+
+
 {% endtab %}
 {% endtabs %}
+
+
 
 ### Betaflight
 
@@ -211,6 +215,8 @@ SERIAL7_PROTOCOL,23
 <figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **網路設定  Ethernet**
+
+<figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
 
 ```
 # 目前支援Ardupilot網路功能
@@ -241,6 +247,8 @@ NET_P4_TYPE,0
 ```
 
 ## **CAN 設定**
+
+<figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
 
 ```
 # 目前支援Ardupilot CAN bus功能
