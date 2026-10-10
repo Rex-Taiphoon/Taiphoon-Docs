@@ -165,7 +165,34 @@ Taiphoon產品主要以三種開源飛控韌體為主：
 {% endtab %}
 {% endtabs %}
 
+## 使用其他燒錄工具進行燒錄
 
+{% tabs %}
+{% tab title="STM32CubeProgrammer " %}
+1. 先下載並安裝STM32CubeProgrammer，[下載來源](https://www.st.com/en/development-tools/stm32cubeprog.html)
+2. 飛控板開啟DFU模式，USB 連接到電腦。
+3.  開啟STM32CubeProgrammer，選擇USB並按下Connect，連線到飛控板
+
+    <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+4.  按下Open file，開啟包含px4韌體的檔案(此處以Ardupilot為例，可以選擇.px4檔案)
+
+    <figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+5.  下載/燒錄韌體到飛控板上
+
+    <figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+6.  燒錄中
+
+    <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
+7. 完成下載/燒錄
+8.  燒錄完成
+
+    <figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+
+
+{% endtab %}
+{% endtabs %}
 
 
 
